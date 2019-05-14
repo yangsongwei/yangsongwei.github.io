@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[java入门]]></title>
+    <url>%2F2019%2F05%2F13%2Fjava%E5%85%A5%E9%97%A8%2F</url>
+    <content type="text"><![CDATA[java入门]]></content>
+      <categories>
+        <category>-java</category>
+      </categories>
+      <tags>
+        <tag>-java基础语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[first blog]]></title>
+    <url>%2F2019%2F05%2F13%2Ffirst-blog%2F</url>
+    <content type="text"><![CDATA[第一篇博客]]></content>
+      <tags>
+        <tag>tags</tag>
+        <tag>about</tag>
+      </tags>
+  </entry>
+</search>
