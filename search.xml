@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[auto open editor test]]></title>
+    <url>%2F2019%2F05%2F14%2Fauto-open-editor-test%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>-test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[java入门]]></title>
     <url>%2F2019%2F05%2F13%2Fjava%E5%85%A5%E9%97%A8%2F</url>
     <content type="text"><![CDATA[java入门]]></content>
