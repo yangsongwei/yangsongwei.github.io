@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yangsongwei.github.io/"/>
-  <updated>2019-05-15T08:05:33.281Z</updated>
+  <updated>2019-05-15T09:59:35.127Z</updated>
   <id>https://yangsongwei.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test1</title>
+    <link href="https://yangsongwei.github.io/test1.html"/>
+    <id>https://yangsongwei.github.io/test1.html</id>
+    <published>2019-05-15T09:59:24.000Z</published>
+    <updated>2019-05-15T09:59:35.127Z</updated>
+    
+    <content type="html"><![CDATA[<p>test1</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;test1&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>创建个人博客主要参考的网站</title>
