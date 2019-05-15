@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>monty|博客</title>
+  <title>monty12|博客</title>
   
   <subtitle>菜鸡一枚</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-14T15:17:08.465Z</updated>
+  <updated>2019-05-15T07:21:26.201Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test picture</title>
-    <link href="http://yoursite.com/2019/05/14/test-picture/"/>
-    <id>http://yoursite.com/2019/05/14/test-picture/</id>
-    <published>2019-05-14T15:14:59.000Z</published>
-    <updated>2019-05-14T15:17:08.465Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="test.png" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;test.png&quot; alt&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>创建个人博客主要参考的网站</title>
