@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[机器学习实战之KNN算法]]></title>
+    <url>%2F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E4%B9%8BKNN%E7%AE%97%E6%B3%95.html</url>
+    <content type="text"><![CDATA[导言​ 最近在学习《机器学习实战》这本书，希望把学到的机器学习知识能够应用下来。所有的代码都在我的github的mllearning仓库中。本章记录学习KNN算法以及应用。 数学原理（主要参考）​]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习实战</tag>
+        <tag>KNN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[git命令手册]]></title>
     <url>%2Fgit%E5%91%BD%E4%BB%A4%E6%89%8B%E5%86%8C.html</url>
     <content type="text"><![CDATA[git常用命令（备注：参考自廖雪峰博客，地址：廖雪峰博客 pdf版本：点击下载 提取码：thff) 一、本地操作1、初始化仓库： 1git init 2、将文件添加进仓库缓冲区： 1git add filename 3、将文件添加进仓库： 1git commit -m &quot;message&quot; 4、查看仓库的状态： 1git status 5、查看仓库中文件具体修改的信息： git diff filename 6、仓库版本回退： git reset --hard HEAD~n（HEAD 是当前版本，HEAD^是前一个版本，n代表前面第n格版本） 7、撤销修改： git checkout -- filename 8、删除版本库中的文件： git rm filename 二、远程操作：（前提是你要将你的工作目录改为你的本地仓库） 1、本地仓库关联远程仓库： 1$ git remote add origin git@github.com:michaelliao/learngit.git 2、将本地仓库的内容推送到远程仓库： git push -u origin master（第一次关联时需要加上-u） 3、克隆远程仓库到本地仓库： 1$ git clone git@github.com:michaelliao/gitskills.git 三、分支管理123456789101112131415161718192021222324251、创建一个新的分支： git checkout -b dev（创建分支并且切换到dev分支） 相当于： git branch dev（创建dev分支） git checkout dev(切换到dev 分支)2、查看当前分支： git branch3、切换分支： git checkout branchname4、合并分支到当前分支： git merge branchname5、删除分支： git branch -d branchname]]></content>
