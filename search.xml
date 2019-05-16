@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git命令手册]]></title>
+    <url>%2Fgit%E5%91%BD%E4%BB%A4%E6%89%8B%E5%86%8C.html</url>
+    <content type="text"><![CDATA[git常用命令（备注：参考自廖雪峰博客，地址：廖雪峰博客 pdf版本：点击下载) 一、本地操作1、初始化仓库： 1git init 2、将文件添加进仓库缓冲区： 1git add filename 3、将文件添加进仓库： 1git commit -m &quot;message&quot; 4、查看仓库的状态： 1git status 5、查看仓库中文件具体修改的信息： git diff filename 6、仓库版本回退： git reset --hard HEAD~n（HEAD 是当前版本，HEAD^是前一个版本，n代表前面第n格版本） 7、撤销修改： git checkout -- filename 8、删除版本库中的文件： git rm filename 二、远程操作：（前提是你要将你的工作目录改为你的本地仓库） 1、本地仓库关联远程仓库： 1$ git remote add origin git@github.com:michaelliao/learngit.git 2、将本地仓库的内容推送到远程仓库： git push -u origin master（第一次关联时需要加上-u） 3、克隆远程仓库到本地仓库： 1$ git clone git@github.com:michaelliao/gitskills.git 三、分支管理123456789101112131415161718192021222324251、创建一个新的分支： git checkout -b dev（创建分支并且切换到dev分支） 相当于： git branch dev（创建dev分支） git checkout dev(切换到dev 分支)2、查看当前分支： git branch3、切换分支： git checkout branchname4、合并分支到当前分支： git merge branchname5、删除分支： git branch -d branchname]]></content>
+      <categories>
+        <category>-git</category>
+      </categories>
+      <tags>
+        <tag>-git常用命令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[java基础知识补漏]]></title>
+    <url>%2Fjava%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E8%A1%A5%E6%BC%8F.html</url>
+    <content type="text"><![CDATA[前言​ 最近在补充自己的java基础知识，研究生毕业可能从事开发工作，所以希望早点对这方面知识进行补充。最近在阅读《java程序员从菜鸟到笨鸟》和《疯狂Java讲义》。 知识总结一、根据CLASSPATH环境变量定位类​ 在刚开始学习java，教程中给的配置环境变量的过程中几乎都会让配置CLASSPATH环境变量，但从来不给为什么要配置。原因是： ​ 在使用“java Java类名”命令来运行java程序的时候，JRE无法搜索到java类，需要配置CLASSPATH中的（.）表示在当前路径下执行，此外，还需要JDK中lib下的dt.jart和tools.jar工具包，所以需要把这两个文件添加到CLASSPATH环境变量中。但是在java 1.5以上版本中，java就不需要配置CLASSPATH也能够运行java程序。 二、java内存回收机制​ java程序的内存分配和回收都是由JRE在后台自动进行。JRE挥挥手那些不再使用的内存。通常JRE会提供一个后台线程来检测和控制，一般都是在CPU空闲或者内存不足的时候自动进行垃圾回收。 ​ 垃圾回收的过程：在Java中，当没有引用变量指向原先分配给某个对象的内存时，该内存便成为垃圾，JVM的一个超级线程会自动释放该内存区。 ​ 因此，在编写java程序时，一个基本原则：对于不再需要的对象，不要引用它们。]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java基础知识</tag>
+        <tag>补漏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[个人博客搭建过程]]></title>
     <url>%2F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B.html</url>
     <content type="text"><![CDATA[引言​ 最近写完论文之后，闲来无事，打算自己基于gitpages来实现一个自己的个人技术博客，忙了一天半，终于把自己的博客搭建好了，基本的样子都有了。希望能好好的写文章。因此，把整个搭建过程参考到的文章总结一下，希望后来的人能够少走弯路。 搭建过程1、初步搭建​ 开始创建项目时，采用小茗同学的教程，一直到修改主题都是正确的，其中如果在使用npm下载包时出现错误，可以考虑使用淘宝的包下载工具cnpm。 ​ 然后开始选择博客的主题，我的博客使用的是NEXT主题，这个主题的开发者将整个配置过程写的很详细。非常适合初学者进行个人博客创建。 ​ NEXT主题配置首页：NEXT主题配置 ​ 基本上按照官方文档进行搭建，大部分功能都是可以实现的。 2、博客功能完善：​ (1)如果不想用NEXT主题，有一个博客推荐比较好的主题。博客地址 ​ (2)添加评论功能：截止2019/5/15，本文使用的插件：来必力,一共尝试了不同的评论系统： ​ -畅言：注册过程中需要使用网站的ICP备案，特别麻烦，所以弃用。 ​ -DISQUS:使用还可以，就是需要外网访问，墙内用户访问不到评论，略坑。 ​ (3)网站seo：为了能够让浏览器爬虫爬取到你的站点，需要进行seo优化，优化教程.建议不要进行百度 的优化，很坑。 ​ (4)引言 ​ 最近写完论文之后，闲来无事，打算自己基于gitpages来实现一个自己的个人技术博客，忙了一天半，终于把自己的博客搭建好了，基本的样子都有了。希望能好好的写文章。因此，把整个搭建过程参考到的文章总结一下，希望后来的人能够少走弯路。 搭建过程1、初步搭建​ 开始创建项目时，采用小茗同学的教程，一直到修改主题都是正确的，其中如果在使用npm下载包时出现错误，可以考虑使用淘宝的包下载工具cnpm。 ​ 然后开始选择博客的主题，我的博客使用的是NEXT主题，这个主题的开发者将整个配置过程写的很详细。非常适合初学者进行个人博客创建。 ​ NEXT主题配置首页：NEXT主题配置 ​ 基本上按照官方文档进行搭建，大部分功能都是可以实现的。 2、博客功能完善：​ (1)如果不想用NEXT主题，有一个博客推荐比较好的主题。博客地址 ​ (2)添加评论功能：截止2019/5/15，本文使用的插件：来必力,一共尝试了不同的评论系统： ​ -畅言：注册过程中需要使用网站的ICP备案，特别麻烦，所以弃用。 ​ -DISQUS:使用还可以，就是需要外网访问，墙内用户访问不到评论，略坑。 ​ (3)网站seo：为了能够让浏览器爬虫爬取到你的站点，需要进行seo优化，优化教程.建议不要进行百度 的优化，很坑。 ​ (4)能够配置功能很多的网页：Hexo-NexT配置超炫网页效果，其中大部分是能够用的，有的还没测试， 希望有时间再添加。 ​ (5)hexo博客官网：网址 ​ (6)对上线博客的样式进行修改：Next主题背景个性化DIY ​ ​]]></content>
