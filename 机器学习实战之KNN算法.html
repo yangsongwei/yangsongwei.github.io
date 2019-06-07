@@ -135,10 +135,12 @@
 <meta property="og:site_name" content="monty12|博客">
 <meta property="og:description" content="导言​    最近在学习《机器学习实战》这本书，希望把学到的机器学习知识能够应用下来。所有的代码都在我的github的mllearning仓库中。本章记录学习KNN算法以及应用。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-16T11:20:49.835Z">
+<meta property="og:image" content="https://yangsongwei.github.io/机器学习实战之KNN算法/knnresult.png">
+<meta property="og:updated_time" content="2019-05-18T15:11:10.735Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="机器学习实战之KNN算法">
 <meta name="twitter:description" content="导言​    最近在学习《机器学习实战》这本书，希望把学到的机器学习知识能够应用下来。所有的代码都在我的github的mllearning仓库中。本章记录学习KNN算法以及应用。">
+<meta name="twitter:image" content="https://yangsongwei.github.io/机器学习实战之KNN算法/knnresult.png">
 
 
 
@@ -467,7 +469,68 @@
       
         <h2 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h2><p>​    最近在学习《机器学习实战》这本书，希望把学到的机器学习知识能够应用下来。所有的代码都在我的github的<a href="https://github.com/yangsongwei/mllearning" target="_blank" rel="noopener">mllearning</a>仓库中。本章记录学习KNN算法以及应用。</p>
 <a id="more"></a>
+<p>[TOC]</p>
 <h2 id="数学原理（主要参考）"><a href="#数学原理（主要参考）" class="headerlink" title="数学原理（主要参考）"></a>数学原理（主要参考）</h2><p>​    </p>
+<h2 id="KNN近邻算法"><a href="#KNN近邻算法" class="headerlink" title="KNN近邻算法"></a>KNN近邻算法</h2><h3 id="K-近邻算法概述"><a href="#K-近邻算法概述" class="headerlink" title="K-近邻算法概述"></a>K-近邻算法概述</h3><h4 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h4><p>​    采用测量不同特征值之间的距离进行分类。工作原理：存在一个样本数据集合，并且样本集中每个数据都存在标签，即知道样本集中每一数据与所属类别的对应关系。输入一个没有标签的数据，计算新数据的每一个特征和样本集中数据对应特征，然后根据算法提取出样本集中特征最相似的数据的分类标签；通常，我们只选择样本集中前K个醉相思的数据，即为KNN中的K值。通常K为不超过20的整数。</p>
+<h3 id="具体例子"><a href="#具体例子" class="headerlink" title="具体例子"></a>具体例子</h3><p>​    对电影数据进行分类。具体数据格式如表1.1所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">每部电影中的打斗镜头数、接吻镜头数以及电影类型评估</th>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">电影名称</td>
+<td style="text-align:center">打斗镜头</td>
+<td style="text-align:center">接吻镜头</td>
+<td style="text-align:center">电影类型</td>
+</tr>
+<tr>
+<td style="text-align:center">California Man</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">104 爱情片</td>
+<td style="text-align:center">爱情片</td>
+</tr>
+<tr>
+<td style="text-align:center">He’s Not Really into Dudes</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">100</td>
+<td style="text-align:center">爱情片</td>
+</tr>
+<tr>
+<td style="text-align:center">Beautiful Woman</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">81</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Kevin Longblade</td>
+<td style="text-align:center">101</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">动作片</td>
+</tr>
+<tr>
+<td style="text-align:center">Robo Slayer 3000</td>
+<td style="text-align:center">99</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">动作片</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">表1.1</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>我们选取每部电影中的打斗镜头和接吻镜头作为特征。通过计算未知电影与样本集中其他电影的距离。如图1.1</p>
+<p><img src="机器学习实战之KNN算法\knnresult.png" alt></p>
+<p>​                                            图1.1</p>
+<p>得到所有的距离，按照递增排序，可以找到k个距离相近的电影。假设距离是3，我们得到距离最小的三部电影是He’s Not Really into Dudes、Beautiful Woman和California Man。三部电影全是爱情片，因此我们判断未知电影是爱情片。</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>​    </p>
 
       
     </div>
@@ -538,6 +601,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/java-web入门（一）-jsp学习.html" rel="prev" title="java web入门（一） jsp学习">
+                java web入门（一） jsp学习 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -627,7 +694,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -638,7 +705,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -649,7 +716,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -711,7 +778,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#导言"><span class="nav-number">1.</span> <span class="nav-text">导言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学原理（主要参考）"><span class="nav-number">2.</span> <span class="nav-text">数学原理（主要参考）</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#导言"><span class="nav-number">1.</span> <span class="nav-text">导言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学原理（主要参考）"><span class="nav-number">2.</span> <span class="nav-text">数学原理（主要参考）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#KNN近邻算法"><span class="nav-number">3.</span> <span class="nav-text">KNN近邻算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#K-近邻算法概述"><span class="nav-number">3.1.</span> <span class="nav-text">K-近邻算法概述</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#工作原理"><span class="nav-number">3.1.1.</span> <span class="nav-text">工作原理</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#具体例子"><span class="nav-number">3.2.</span> <span class="nav-text">具体例子</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码实现"><span class="nav-number">4.</span> <span class="nav-text">代码实现</span></a></li></ol></div>
             
 
           </div>
