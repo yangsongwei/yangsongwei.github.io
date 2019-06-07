@@ -127,18 +127,18 @@
 
 
 
-<meta name="description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6–六度分割理论。 弱连接的强度基本概念​    1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。 ​$$D=\max_{i,j}d_{ij}$$​    2、网络的平均长度L定义为">
+<meta name="description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。 弱连接的强度">
 <meta name="keywords" content="-复杂网络 -初入">
 <meta property="og:type" content="article">
 <meta property="og:title" content="复杂网络理论及其应用之初入">
 <meta property="og:url" content="https://yangsongwei.github.io/复杂网络理论及其应用之初入.html">
 <meta property="og:site_name" content="monty12|博客">
-<meta property="og:description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6–六度分割理论。 弱连接的强度基本概念​    1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。 ​$$D=\max_{i,j}d_{ij}$$​    2、网络的平均长度L定义为">
+<meta property="og:description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。 弱连接的强度">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-07T11:20:16.458Z">
+<meta property="og:updated_time" content="2019-06-07T11:43:22.268Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="复杂网络理论及其应用之初入">
-<meta name="twitter:description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6–六度分割理论。 弱连接的强度基本概念​    1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。 ​$$D=\max_{i,j}d_{ij}$$​    2、网络的平均长度L定义为">
+<meta name="twitter:description" content="引论复杂网络研究简史七桥问题​     小世界实验​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。 弱连接的强度">
 
 
 
@@ -466,18 +466,22 @@
 
       
         <h2 id="引论"><a href="#引论" class="headerlink" title="引论"></a>引论</h2><h3 id="复杂网络研究简史"><a href="#复杂网络研究简史" class="headerlink" title="复杂网络研究简史"></a>复杂网络研究简史</h3><h4 id="七桥问题"><a href="#七桥问题" class="headerlink" title="七桥问题"></a>七桥问题</h4><p>​    </p>
-<h4 id="小世界实验"><a href="#小世界实验" class="headerlink" title="小世界实验"></a>小世界实验</h4><p>​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6–六度分割理论。</p>
-<h4 id="弱连接的强度"><a href="#弱连接的强度" class="headerlink" title="弱连接的强度"></a>弱连接的强度</h4><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>​    1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。</p>
-<p>​<br>$$<br>D=\max_{i,j}d_{ij}<br>$$<br>​    2、网络的平均长度L定义为任意两个节点之间的距离的平均值，即：</p>
-<p>​<br>$$<br>L=\frac1{\frac12N(N+1)}\sum_{i{\ge}j}d_{ij}<br>$$<br>​    3、聚类系数：网络中的一个节点</p>
+<h4 id="小世界实验"><a href="#小世界实验" class="headerlink" title="小世界实验"></a>小世界实验</h4><p>​    即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。</p>
+<h4 id="弱连接的强度"><a href="#弱连接的强度" class="headerlink" title="弱连接的强度"></a>弱连接的强度</h4><a id="more"></a>
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>​    1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。</p>
+<p>​        </p>
+<script type="math/tex; mode=display">
+D=\max_{i,j}d_{ij}</script><p>​    2、网络的平均长度L定义为任意两个节点之间的距离的平均值，即：</p>
+<p>​    </p>
+<script type="math/tex; mode=display">
+L=\frac1{\frac12N(N+1)}\sum_{i{\ge}j}d_{ij}</script><p>​    3、聚类系数：网络中的一个节点</p>
 <p>​    4、度与度的分布：</p>
 <p>​        出度：</p>
 <p>​        入度：</p>
 <p>​        网络的平均度：         </p>
 <p>​    5、幂律分布/无标度分布：</p>
 <p>​        </p>
-<h4 id><a href="#" class="headerlink" title=" "></a> </h4><p>#### </p>
-
+<h4 id><a href="#" class="headerlink" title=" "></a> </h4><h4 id="-1"><a href="#-1" class="headerlink" title=" "></a> </h4>
       
     </div>
     
@@ -722,7 +726,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引论"><span class="nav-number">1.</span> <span class="nav-text">引论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#复杂网络研究简史"><span class="nav-number">1.1.</span> <span class="nav-text">复杂网络研究简史</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#七桥问题"><span class="nav-number">1.1.1.</span> <span class="nav-text">七桥问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小世界实验"><span class="nav-number">1.1.2.</span> <span class="nav-text">小世界实验</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#弱连接的强度"><span class="nav-number">1.1.3.</span> <span class="nav-text">弱连接的强度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基本概念"><span class="nav-number">1.2.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#"><span class="nav-number">1.2.1.</span> <span class="nav-text"> </span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引论"><span class="nav-number">1.</span> <span class="nav-text">引论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#复杂网络研究简史"><span class="nav-number">1.1.</span> <span class="nav-text">复杂网络研究简史</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#七桥问题"><span class="nav-number">1.1.1.</span> <span class="nav-text">七桥问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小世界实验"><span class="nav-number">1.1.2.</span> <span class="nav-text">小世界实验</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#弱连接的强度"><span class="nav-number">1.1.3.</span> <span class="nav-text">弱连接的强度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基本概念"><span class="nav-number">1.2.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#"><span class="nav-number">1.2.1.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#-1"><span class="nav-number">1.2.2.</span> <span class="nav-text"> </span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -1357,6 +1361,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
