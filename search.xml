@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[leetcode之remove element]]></title>
+    <url>%2Fleetcode%E4%B9%8Bremove-element.html</url>
+    <content type="text"><![CDATA[删除元素（remove element）题意​ 给定一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，返回移除后数组的新长度。 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 思路​]]></content>
+      <categories>
+        <category>-leetcode</category>
+      </categories>
+      <tags>
+        <tag>-array -leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML总结]]></title>
+    <url>%2FHTML%E6%80%BB%E7%BB%93.html</url>
+    <content type="text"><![CDATA[html标签总结 标签名 用法 属性 效果 html 网页总标签 br 换行 hr 画出水平分割线 em 起强调作用 blockquote 表明内容是引用 strong 内容显示为粗体 ol 创建有序列表 ul 创建无序列表 li 用于创建列表中的具体的项 a href mailto:email target:_blank 网页链接到别的界面，href表示链接的网址。 img src=”” alt=”” 当图片无法显示时显示文字 title=”” 鼠标点击图片时显示 插入图片 figcaption figure hhtml5中可以对图形进行描述 表格1、实例： 1234567891011121314&lt;table&gt; &lt;tr&gt; &lt;th&gt;1&lt;/th&gt; &lt;th&gt;2&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; 40 &lt;/td&gt; &lt;td&gt;30 &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; 2、属性标签： ​ 属性 效果 colspan 跨多少列 rowspan 跨多少行 表单1、实例： ​ 1234&lt;form action="sub.php" method="get/post"&gt; &lt;!--单行文本框--&gt; username:&lt;input type="text" name="username" length="20"&gt;&lt;br/&gt;&lt;/form&gt; 2、组合表单元素： ​ 1234567&lt;fieldset&gt; &lt;legend&gt;个人信息&lt;/legend&gt; &lt;label&gt;姓名&lt;/label&gt;&lt;input type="text" name="name"&gt;&lt;br&gt; &lt;label&gt;年龄&lt;/label&gt;&lt;input type="text" name="age"&gt;&lt;br&gt; &lt;label&gt;职务&lt;/label&gt;&lt;input type="text" name="work"&gt;&lt;br&gt; &lt;input type="submit" value="提交"&gt;&amp;nsbn&lt;input type="reset" value="清空"&gt;&lt;/fieldset&gt; 3、html5验证表单： 12345&lt;form&gt; &lt;label&gt;姓名&lt;/label&gt;&lt;input type="text" name="name" required="required"&gt;&lt;br&gt; &lt;label&gt;年龄&lt;/label&gt;&lt;input type="text" name="age" required="required"&gt;&lt;br&gt; &lt;input type="submit" name="提交"&gt;&lt;/form&gt; ​ 目前只有chrome和opera支持该特性。需要添加required属性。 4、html5日期控件： ​ 12&lt;label&gt;生日&lt;/label&gt;&lt;input type="date"&gt; &lt;!--type属性值为date表示插入一个日期控件--&gt; 5、html5邮件、url输入控件、搜索控件 ​ 123&lt;label&gt;电子邮件&lt;/label&gt;&lt;/label&gt;&lt;input type="email"&gt;&lt;label&gt;url&lt;/label&gt;&lt;input type="url"&gt;&lt;label&gt;搜索&lt;/label&gt;&lt;input type="search" name="search" placeholder="请输入搜索内容"&gt; 其他标记文档类型1&lt;!DOCTYPE html&gt; 注释1&lt;!--注释--&gt; 块级元素​ 有些元素在浏览器中显示的过程中总是要另起一行，称为块级元素。如div。 内联元素​ 有些元素在浏览器中显示过程中总是和相邻元素处在同一行内，称为内联元素。如span。 内联框架​ 在网页中开启另一个小窗口，可以看到另一个网页。常用在网页中显示地图。 1&lt;iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=moma+new_yourk&amp;amp;output=embed"&gt;&lt;/iframe&gt; 添加视频信息​ 1、视频 ​ 属性： ​ 属性名称 属性值 属性解释 src 视频路径 poster 图片路径 用于在未播放视频时在视频中显示的图片 width,height 指定播放视频的宽度和高度 controls 如果使用该属性，表明需要提供浏览器默认的播放器 autoplay 表明浏览器会自动播放视频 loop 表明在播放完视频之后会重复播放视频 preload none/auto/metadata 在用户不点击播放时不加载视频/在加载页面时加载视频/只收集少量的视频信息 123&lt;video src="video/puppy.webm" poster="images/puppy.jpg" controls autoplay &gt; &lt;/video&gt; 若是有多个视频，可以使用标签进行操作，代替vedio标签中的src属性。在vedio标签中包含多个视频。 添加音频信息​ 1&lt;audio&gt;&lt;/audio&gt; 属性与视频属性相同。]]></content>
+      <categories>
+        <category>-前端</category>
+      </categories>
+      <tags>
+        <tag>-HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python之前端综述]]></title>
+    <url>%2Fpython%E4%B9%8B%E5%89%8D%E7%AB%AF%E7%BB%BC%E8%BF%B0.html</url>
+    <content type="text"><![CDATA[python前端]]></content>
+      <categories>
+        <category>-python</category>
+      </categories>
+      <tags>
+        <tag>-前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python之进程和线程]]></title>
+    <url>%2Fpython%E4%B9%8B%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B.html</url>
+    <content type="text"><![CDATA[python实现进程和线程 1、多进程实现代码： ​ 12345678910111213141516171819202122232425262728from multiprocessing import Processfrom os import getpidfrom random import randintfrom time import time, sleepdef download_task(filename): print('启动下载进程，进程号[%d].' % getpid()) print('开始下载%s...' % filename) time_to_download = randint(5, 10) sleep(time_to_download) print('%s下载完成! 耗费了%d秒' % (filename, time_to_download))def main(): start = time() p1 = Process(target=download_task, args=('Python从入门到住院.pdf', )) p1.start() p2 = Process(target=download_task, args=('Peking Hot.avi', )) p2.start() p1.join() p2.join() end = time() print('总共耗费了%.2f秒.' % (end - start))if __name__ == '__main__': main() 2、多线程实现代码： ​ （1）通过创建Thread类进行创建： ​ 1234567891011121314151617181920212223from threading import Threadfrom random import randintfrom time import time,sleepdef download(filename): print('开始下载%s...' % filename) time_to_download = randint(5, 10) sleep(time_to_download) print('%s下载完成! 耗费了%d秒' % (filename, time_to_download))def main(): start=time() thread1=Thread(target=download, args=('Python从入门到住院.pdf',)) thread2=Thread(target=download,args=('Peking Hot.avi',)) thread1.start() thread2.start() thread1.join() thread2.join() end=time() print('总共消耗了%.3f秒'%(end-start))if __name__=='__main__': main() (2)通过继承Thread类： ​ 1234567891011121314151617181920212223242526272829303132from random import randintfrom threading import Threadfrom time import time, sleepclass DownloadTask(Thread): def __init__(self, filename): super().__init__() self._filename = filename def run(self): print('开始下载%s...' % self._filename) time_to_download = randint(5, 10) sleep(time_to_download) print('%s下载完成! 耗费了%d秒' % (self._filename, time_to_download))def main(): start = time() t1 = DownloadTask('Python从入门到住院.pdf') t1.start() t2 = DownloadTask('Peking Hot.avi') t2.start() t1.join() t2.join() end = time() print('总共耗费了%.2f秒.' % (end - start))if __name__ == '__main__': main()]]></content>
+      <categories>
+        <category>-python</category>
+      </categories>
+      <tags>
+        <tag>-进程 -线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python之文件和异常]]></title>
+    <url>%2Fpython%E4%B9%8B%E6%96%87%E4%BB%B6%E5%92%8C%E5%BC%82%E5%B8%B8.html</url>
+    <content type="text"><![CDATA[python文件和异常​ python中文件和异常的基础知识。 文件操作​ 1、使用python内置函数open()函数。 ​ 2、文件操作模式： ​ 操作模式 具体含义 ‘r’ 只读（默认模式） ‘w’ 写入（会先截断之前的内容） ‘x’ 写入，如果文件已经存在会产生异常 ‘a’ 追加，将内容写入到已有文件的末尾 ‘b’ 二进制模式 ‘t’ 文本模式 ‘+’ 更新（既可以都又可以写） 异常1、模式： 12345try:except Exception:finally:]]></content>
+      <categories>
+        <category>-python</category>
+      </categories>
+      <tags>
+        <tag>-文件 -异常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[经济学思维方式（二）]]></title>
+    <url>%2F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%80%9D%E7%BB%B4%E6%96%B9%E5%BC%8F%EF%BC%88%E4%BA%8C%EF%BC%89.html</url>
+    <content type="text"><![CDATA[一、导言​ 经济学思维方式中第二章讲述的基本的经济学概念总结。 二、比较优势法则三、中间人​]]></content>
+      <tags>
+        <tag>-经济学思维方式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[复杂网络理论及其应用（二）]]></title>
+    <url>%2F%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C%E7%90%86%E8%AE%BA%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%EF%BC%88%E4%BA%8C%EF%BC%89.html</url>
+    <content type="text"><![CDATA[第二章 网络拓扑结构基本模型及其性质引言​ 本章总结积累基本的模型，包括规则网络、随机图、小世界网络、无标度网络、等级网络和局域世界演化网络模型。 规则网络​ 1、规则网络模型：最近邻网络(只与周围的邻居结点相邻) ​ 2、 随机图(完全随机网络)​ 1、ER随机图：网络中任意两个点之间存在联系的概率是p。 ​ 平均度：=p(N-1) ​ 小世界网络模型概念​ 是现实中的网络的表现，介于完全规则网络和随机网络之间。 ​ 即具有较短的平均路径长度又具有较高的聚类系数的网络称为小世界网络。 统计性质​]]></content>
+      <categories>
+        <category>-复杂网络理论</category>
+      </categories>
+      <tags>
+        <tag>-网络拓扑基本模型 -网络性质</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[java基础之JAR文件]]></title>
+    <url>%2Fjava%E5%9F%BA%E7%A1%80%E4%B9%8BJAR%E6%96%87%E4%BB%B6.html</url>
+    <content type="text"><![CDATA[java中JAR文件的使用JAR文件​ 全程Java Archive File，及java档案文件。 JAR命令详解​ 1、创建JAR文件：jar cf test.jar test 不显示压缩过程。 ​ 2、创建jar文件，并显示压缩过程：jar cvf test.jar test ​ 3、不使用清单文件： jar cvfM test.jar test ​ 4、查看JAR包的内容：jar tf test.jar ​ 5、解压缩文件：jar xf test.jar ​ 6、带提示信息解压缩：jar xf test.jar 如何制作可执行的JAR包​ jar cvfe test.jar test.Test test]]></content>
+      <categories>
+        <category>-java</category>
+      </categories>
+      <tags>
+        <tag>-JAR文件 -java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[js基础语法]]></title>
     <url>%2Fjs%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html</url>
     <content type="text"><![CDATA[基础知识​ 1、js中变量名区分大小写。 ​ 2、如果变量只声明不赋值，该变量的值是undefined。 ​ 3、变量提升：js引擎在执行代码时，会将所有声明变量的语句提升到代码的头部。所以下面的代码不会报错。 ​ 12console.log(b);var b="yangsongwei"; ​ 两种形式：// 和/ / 语句​ 1、条件语句 ​ 1234567if()&#123; &#125;else if&#123; &#125;else&#123; &#125; ​ 2、switch结构 ​ 12345678910switch(fruit)&#123; case "banana": //.... break; case "apple": //.... break; default: //....&#125; ​ 3、三目运算符 ​ (条件) ？ 表达式1：表达式2 ​ 4、循环语句 ​ (1)while循环 123while(条件)&#123; 语句;&#125; 数据类型​ 1、typeof运算符：返回一个数据的类型信息。 ​ 2、与数值相关的全局方法： ​ (1)parseInt() 将字符串转化为整数。 字符串​ 1、字符串默认只能写在同一行中，多行会报错，但是可以使用反斜杠来表示。 1234'a\b\c';"abc" ​ 2、可以使用运算符(+)连接多个单行字符串。 ​ 3、字符串可以视为字符数组，可以通过下标的方式进行访问。 ​ 4、.length返回的是字符串的长度。 对象​ 1、对象在js中就是一组键值对。 ​ 123var obj=&#123; 'foo':'Hello',&#125; ​ 2、如果键名是数值，会自动被转换为字符串。 ​ 3、对象的每一个键名称为属性，属性可以为任何一个类型，若键值的属性的值是函数的话，称为对象的方法。 12345var test=&#123; p:function(c)&#123; return 2*c; &#125;&#125;; ​ 4、在处理对象时，如果有括号，解析为对象，没有括号的话，解析为字符串。 ​ 5、对属性进行读取，采用”.”或下标。 ​ 123456789101112var test=&#123; 1:"yang", 2:"song", 3:"wei", t1:function(x)&#123; return 2*x; &#125;&#125;;//访问test.t1(2)test['t1'] ​ 6、属性的查看： ​ Object.keys(obj) ​ 7、属性删除： ​ delete obj.p ​ 8、属性是否存在： ​ ‘p’ in obj 缺点：不能判断属性是否是自己的还是集成的。 ​ obj.hasOwnProperty(p) 用于判断属性是都是对象自身所有的属性。 ​ 9、属性的遍历： ​ for … in …循环 1234567var obj=&#123; a:1,b:2,c:3&#125;;for(var i in obj)&#123; console.log("键名：",i); console.log("键值",obj[i]);&#125; ​ 10、with语句： ​ 用于操纵同一个对象的多个属性。 123with(对象)&#123; 语句;&#125; 函数​ 1、函数声明的三种方式： 1234567891011121314151617//第一种function print(S)&#123; console.log(S);&#125;//第二种var print=function(S)&#123; console.log(S);&#125;//第三种var print=new Function( 'x', 'y', 'return x+y')//第三种方式中只有倒数第一个被称作函数体，前面的所有的都是变量。 ​ ​ 2、函数名提升：和变量名提升相同，可以把一个函数声明提升到代码的头部。 ​]]></content>
@@ -14,7 +99,7 @@
   <entry>
     <title><![CDATA[复杂网络理论及其应用之初入]]></title>
     <url>%2F%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C%E7%90%86%E8%AE%BA%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8%E4%B9%8B%E5%88%9D%E5%85%A5.html</url>
-    <content type="text"><![CDATA[引论复杂网络研究简史七桥问题​ 小世界实验​ 即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。 弱连接的强度 基本概念​ 1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。 ​ D=\max_{i,j}d_{ij}​ 2、网络的平均长度L定义为任意两个节点之间的距离的平均值，即： ​ L=\frac1{\frac12N(N+1)}\sum_{i{\ge}j}d_{ij}​ 3、聚类系数：网络中的一个节点 ​ 4、度与度的分布： ​ 出度： ​ 入度： ​ 网络的平均度： ​ 5、幂律分布/无标度分布： ​]]></content>
+    <content type="text"><![CDATA[引论复杂网络研究简史七桥问题​ 小世界实验​ 即美国哈佛大学社会心理学家Stanley Milgram通过一些社会后给出的推断：地球上任意两个人之间的平均距离是6—六度分割理论。 弱连接的强度 基本概念​ 1、网络的直径(diameter):网络中任意节点之间的距离的最大值成为网络的直径，记为D。 ​ D=\max_{i,j}d_{ij}​ 2、网络的平均长度L定义为任意两个节点之间的距离的平均值，即： ​ L=\frac1{\frac12N(N+1)}\sum_{i{\ge}j}d_{ij}​ 3、聚类系数：网络中的一个节点 ​ 4、度与度的分布： ​ 出度： ​ 入度： ​ 网络的平均度： ​ 5、幂律分布/无标度分布： ​ 在一个分布为具有幂率形式的大规模无标度网络中，绝大多数节点的度的相对较低，但存在少量的节点具有很高的度。]]></content>
       <categories>
         <category>-复杂网络理论及其应用</category>
       </categories>
