@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[未选择的路]]></title>
+    <url>%2F%E6%9C%AA%E9%80%89%E6%8B%A9%E7%9A%84%E8%B7%AF.html</url>
+    <content type="text"><![CDATA[未选择的路​ 弗罗斯特（美） 黄色的树林里分出两条路 可惜我不能同时去涉足 我在那路口久久伫立 我向着一条路极目望去 直到它消失在丛林深处 但我选了另外一条路 它荒草萋萋，十分幽寂 显得更诱人，更美丽 虽然在这条小路上 很少留下旅人的足迹 那天清晨落叶满地 两条路都未经脚印污染 啊，留下一条路等改日再见 但我知道路径延绵无尽头 恐怕我难以再回返 也许多少年后在某个地方 我将轻声叹息将往事回顾 一条树林里分出两条路—— 而我选择了人际更少的一条 从此决定了我一生的道路]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端之css基础知识]]></title>
+    <url>%2F%E5%89%8D%E7%AB%AF%E4%B9%8Bcss%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</url>
+    <content type="text"><![CDATA[简介​ 前端中css基础知识总结。参考书籍《HTML&amp;CSS设计与构建网站》 css原理​ 理解css的关键在于要看到网页中的任何元素周围都有一个看不见的盒子，css允许你创建规则，来操纵每个盒子以及盒子中的内容的显示方式。 ​ css采用将样式规则与html元素相关联的方式来操纵元素。一条css规则包含两个部分：一个选择器和一条声明。 ​ 123p&#123; font-family: Arial;&#125; css基础知识一、使用css：1、外部引入1&lt;link rel="stylesheet" type="text/css" href="css路径"&gt; ​ 若需要引入多个css文件，则需要使用多个link标签进行引入。 2、内部引入123&lt;style type="test/css"&gt; &lt;!--css code--&gt;&lt;/style&gt; 二、css颜色​ 1、css3透明度： ​ 1234567p&#123; opacity:0~1;&#125;p&#123; rgba(,,,0~1);&#125; 三、文本1、字体术语​ (1)衬线字体：在主要的笔画的末端有一些额外的装饰，这些装饰被称为衬线。通常用于长篇文本。 ​ (2)无衬线字体：用于文本非常小。 ​ (3)等宽字体：每个字母的宽度都相同。 2、字体选用​ 1234//字体样式font-family: ;//字体大小font-size: ; 3、字体格式12//文字对齐方式text-align:left/center/right/justify(两端对齐) 4、链接样式：1234567:link&#123; //为尚未访问过的链接设置样式&#125;:visited&#123; //为已经访问过的链接设置样式&#125; 1234567891011：hover&#123; //鼠标悬停在某个地方时的显示样式&#125;:active&#123; //当动作生效时，产生的效果&#125;:focus&#123; //在元素拥有焦点时产生效果&#125; 四、盒子模型一、盒子的大小​ 1234567891011121314//宽度width: ;//高度height: ;//盒子的最大宽度max-width: ;//盒子的最小宽度min-width: ;//最大高度max-height: ;//最小高度min-height: ; 二、内容溢出​ 1overflow:hidden/scroll 三、边框、外边距、内边距12]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>css基础知识</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[leetcode之remove element]]></title>
     <url>%2Fleetcode%E4%B9%8Bremove-element.html</url>
     <content type="text"><![CDATA[删除元素（remove element）题意​ 给定一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，返回移除后数组的新长度。 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 思路​]]></content>

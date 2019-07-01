@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="进程,线程,">
+  <meta name="keywords" content="css基础知识,">
 
 
 
@@ -127,18 +127,18 @@
 
 
 
-<meta name="description" content="python实现进程和线程">
-<meta name="keywords" content="进程,线程">
+<meta name="description" content="简介​    前端中css基础知识总结。参考书籍《HTML&amp;amp;CSS设计与构建网站》">
+<meta name="keywords" content="css基础知识">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python之进程和线程">
-<meta property="og:url" content="https://yangsongwei.github.io/python之进程和线程.html">
+<meta property="og:title" content="前端之css基础知识">
+<meta property="og:url" content="https://yangsongwei.github.io/前端之css基础知识.html">
 <meta property="og:site_name" content="monty12|博客">
-<meta property="og:description" content="python实现进程和线程">
+<meta property="og:description" content="简介​    前端中css基础知识总结。参考书籍《HTML&amp;amp;CSS设计与构建网站》">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-27T13:52:50.770Z">
+<meta property="og:updated_time" content="2019-06-30T13:08:23.764Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python之进程和线程">
-<meta name="twitter:description" content="python实现进程和线程">
+<meta name="twitter:title" content="前端之css基础知识">
+<meta name="twitter:description" content="简介​    前端中css基础知识总结。参考书籍《HTML&amp;amp;CSS设计与构建网站》">
 
 
 
@@ -168,13 +168,13 @@
 
 
 
-  <link rel="canonical" href="https://yangsongwei.github.io/python之进程和线程.html">
+  <link rel="canonical" href="https://yangsongwei.github.io/前端之css基础知识.html">
 
 
 
 
 
-  <title>python之进程和线程 | monty12|博客</title>
+  <title>前端之css基础知识 | monty12|博客</title>
   
 
 
@@ -365,7 +365,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://yangsongwei.github.io/python之进程和线程.html">
+    <link itemprop="mainEntityOfPage" href="https://yangsongwei.github.io/前端之css基础知识.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="yangsongwei">
@@ -382,7 +382,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">python之进程和线程</h1>
+          <h1 class="post-title" itemprop="name headline">前端之css基础知识</h1>
         
 
         <div class="post-meta">
@@ -394,8 +394,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-16T16:03:09+08:00">
-                2019-06-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-27T22:04:37+08:00">
+                2019-06-27
               </time>
             
 
@@ -417,8 +417,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
                   </a>
                 </span>
 
@@ -434,7 +434,7 @@
 
           
           
-             <span id="/python之进程和线程.html" class="leancloud_visitors" data-flag-title="python之进程和线程">
+             <span id="/前端之css基础知识.html" class="leancloud_visitors" data-flag-title="前端之css基础知识">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -465,17 +465,31 @@
       
 
       
-        <h1 id="python实现进程和线程"><a href="#python实现进程和线程" class="headerlink" title="python实现进程和线程"></a>python实现进程和线程</h1><a id="more"></a>
-<p>1、多进程实现代码：</p>
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>​    前端中css基础知识总结。参考书籍《HTML&amp;CSS设计与构建网站》</p>
+<a id="more"></a>
+<h1 id="css原理"><a href="#css原理" class="headerlink" title="css原理"></a>css原理</h1><p>​    理解css的关键在于<strong>要看到网页中的任何元素周围都有一个看不见的盒子，css允许你创建规则，来操纵每个盒子以及盒子中的内容的显示方式。</strong></p>
+<p>​    css采用将样式规则与html元素相关联的方式来操纵元素。一条css规则包含两个部分：一个选择器和一条声明。</p>
 <p>​    </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Process</span><br><span class="line"><span class="keyword">from</span> os <span class="keyword">import</span> getpid</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> time, sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">download_task</span><span class="params">(filename)</span>:</span></span><br><span class="line">    print(<span class="string">'启动下载进程，进程号[%d].'</span> % getpid())</span><br><span class="line">    print(<span class="string">'开始下载%s...'</span> % filename)</span><br><span class="line">    time_to_download = randint(<span class="number">5</span>, <span class="number">10</span>)</span><br><span class="line">    sleep(time_to_download)</span><br><span class="line">    print(<span class="string">'%s下载完成! 耗费了%d秒'</span> % (filename, time_to_download))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    start = time()</span><br><span class="line">    p1 = Process(target=download_task, args=(<span class="string">'Python从入门到住院.pdf'</span>, ))</span><br><span class="line">    p1.start()</span><br><span class="line">    p2 = Process(target=download_task, args=(<span class="string">'Peking Hot.avi'</span>, ))</span><br><span class="line">    p2.start()</span><br><span class="line">    p1.join()</span><br><span class="line">    p2.join()</span><br><span class="line">    end = time()</span><br><span class="line">    print(<span class="string">'总共耗费了%.2f秒.'</span> % (end - start))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-<p>2、多线程实现代码：</p>
-<p>​    （1）通过创建Thread类进行创建：</p>
-<p>​    </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> time,sleep</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">download</span><span class="params">(filename)</span>:</span></span><br><span class="line">    print(<span class="string">'开始下载%s...'</span> % filename)</span><br><span class="line">    time_to_download = randint(<span class="number">5</span>, <span class="number">10</span>)</span><br><span class="line">    sleep(time_to_download)</span><br><span class="line">    print(<span class="string">'%s下载完成! 耗费了%d秒'</span> % (filename, time_to_download))</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    start=time()</span><br><span class="line">    thread1=Thread(target=download, args=(<span class="string">'Python从入门到住院.pdf'</span>,))</span><br><span class="line">    thread2=Thread(target=download,args=(<span class="string">'Peking Hot.avi'</span>,))</span><br><span class="line">    thread1.start()</span><br><span class="line">    thread2.start()</span><br><span class="line">    thread1.join()</span><br><span class="line">    thread2.join()</span><br><span class="line">    end=time()</span><br><span class="line">    print(<span class="string">'总共消耗了%.3f秒'</span>%(end-start))</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__==<span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-<p>(2)通过继承Thread类：</p>
-<p>​    </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> time, sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">DownloadTask</span><span class="params">(Thread)</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, filename)</span>:</span></span><br><span class="line">        super().__init__()</span><br><span class="line">        self._filename = filename</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(<span class="string">'开始下载%s...'</span> % self._filename)</span><br><span class="line">        time_to_download = randint(<span class="number">5</span>, <span class="number">10</span>)</span><br><span class="line">        sleep(time_to_download)</span><br><span class="line">        print(<span class="string">'%s下载完成! 耗费了%d秒'</span> % (self._filename, time_to_download))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    start = time()</span><br><span class="line">    t1 = DownloadTask(<span class="string">'Python从入门到住院.pdf'</span>)</span><br><span class="line">    t1.start()</span><br><span class="line">    t2 = DownloadTask(<span class="string">'Peking Hot.avi'</span>)</span><br><span class="line">    t2.start()</span><br><span class="line">    t1.join()</span><br><span class="line">    t2.join()</span><br><span class="line">    end = time()</span><br><span class="line">    print(<span class="string">'总共耗费了%.2f秒.'</span> % (end - start))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">    <span class="attribute">font-family</span>: Arial;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="css基础知识"><a href="#css基础知识" class="headerlink" title="css基础知识"></a>css基础知识</h1><h2 id="一、使用css："><a href="#一、使用css：" class="headerlink" title="一、使用css："></a>一、使用css：</h2><h3 id="1、外部引入"><a href="#1、外部引入" class="headerlink" title="1、外部引入"></a>1、外部引入</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"css路径"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>​    若需要引入多个css文件，则需要使用多个link标签进行引入。</p>
+<h3 id="2、内部引入"><a href="#2、内部引入" class="headerlink" title="2、内部引入"></a>2、内部引入</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"test/css"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="xml">	<span class="comment">&lt;!--css code--&gt;</span></span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="二、css颜色"><a href="#二、css颜色" class="headerlink" title="二、css颜色"></a>二、css颜色</h2><p>​    1、css3透明度：</p>
+<p>​        </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">    <span class="attribute">opacity</span>:<span class="number">0</span>~<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">    rgba(,,,0~1);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="三、文本"><a href="#三、文本" class="headerlink" title="三、文本"></a>三、文本</h2><h3 id="1、字体术语"><a href="#1、字体术语" class="headerlink" title="1、字体术语"></a>1、字体术语</h3><p>​            (1)衬线字体：在主要的笔画的末端有一些额外的装饰，这些装饰被称为衬线。通常用于长篇文本。</p>
+<p>​            (2)无衬线字体：用于文本非常小。</p>
+<p>​            (3)等宽字体：每个字母的宽度都相同。</p>
+<h3 id="2、字体选用"><a href="#2、字体选用" class="headerlink" title="2、字体选用"></a>2、字体选用</h3><p>​        </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//字体样式</span><br><span class="line"><span class="selector-tag">font-family</span>:  ;</span><br><span class="line">//字体大小</span><br><span class="line"><span class="selector-tag">font-size</span>:  ;</span><br></pre></td></tr></table></figure>
+<h3 id="3、字体格式"><a href="#3、字体格式" class="headerlink" title="3、字体格式"></a>3、字体格式</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//文字对齐方式</span><br><span class="line">text-align:left/center/right/justify(两端对齐)</span><br></pre></td></tr></table></figure>
+<h3 id="4、链接样式："><a href="#4、链接样式：" class="headerlink" title="4、链接样式："></a>4、链接样式：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">:link&#123;</span><br><span class="line">    //为尚未访问过的链接设置样式</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">:visited&#123;</span><br><span class="line">    //为已经访问过的链接设置样式</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">：hover&#123;</span><br><span class="line">    //鼠标悬停在某个地方时的显示样式</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">:active&#123;</span><br><span class="line">    //当动作生效时，产生的效果</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">:focus&#123;</span><br><span class="line">    //在元素拥有焦点时产生效果</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="四、盒子模型"><a href="#四、盒子模型" class="headerlink" title="四、盒子模型"></a>四、盒子模型</h2><h3 id="一、盒子的大小"><a href="#一、盒子的大小" class="headerlink" title="一、盒子的大小"></a>一、盒子的大小</h3><p>​        </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//宽度</span><br><span class="line"><span class="selector-tag">width</span>: ;</span><br><span class="line">//高度</span><br><span class="line"><span class="selector-tag">height</span>: ;</span><br><span class="line"></span><br><span class="line">//盒子的最大宽度</span><br><span class="line"><span class="selector-tag">max-width</span>: ;</span><br><span class="line">//盒子的最小宽度</span><br><span class="line"><span class="selector-tag">min-width</span>: ;</span><br><span class="line"></span><br><span class="line">//最大高度</span><br><span class="line"><span class="selector-tag">max-height</span>: ;</span><br><span class="line">//最小高度</span><br><span class="line"><span class="selector-tag">min-height</span>: ;</span><br></pre></td></tr></table></figure>
+<h3 id="二、内容溢出"><a href="#二、内容溢出" class="headerlink" title="二、内容溢出"></a>二、内容溢出</h3><p>​    </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">overflow:hidden/scroll</span><br></pre></td></tr></table></figure>
+<h3 id="三、边框、外边距、内边距"><a href="#三、边框、外边距、内边距" class="headerlink" title="三、边框、外边距、内边距"></a>三、边框、外边距、内边距</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -522,9 +536,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/进程/" rel="tag"><i class="fa fa-tag"></i>进程</a>
-          
-            <a href="/tags/线程/" rel="tag"><i class="fa fa-tag"></i>线程</a>
+            <a href="/tags/css基础知识/" rel="tag"><i class="fa fa-tag"></i>css基础知识</a>
           
         </div>
       
@@ -537,8 +549,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/python之文件和异常.html" rel="next" title="python之文件和异常">
-                <i class="fa fa-chevron-left"></i> python之文件和异常
+              <a href="/leetcode之remove-element.html" rel="next" title="leetcode之remove element">
+                <i class="fa fa-chevron-left"></i> leetcode之remove element
               </a>
             
           </div>
@@ -547,8 +559,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/HTML总结.html" rel="prev" title="HTML总结">
-                HTML总结 <i class="fa fa-chevron-right"></i>
+              <a href="/未选择的路.html" rel="prev" title="未选择的路">
+                未选择的路 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -723,7 +735,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#python实现进程和线程"><span class="nav-number">1.</span> <span class="nav-text">python实现进程和线程</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#css原理"><span class="nav-number">2.</span> <span class="nav-text">css原理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#css基础知识"><span class="nav-number">3.</span> <span class="nav-text">css基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、使用css："><span class="nav-number">3.1.</span> <span class="nav-text">一、使用css：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、外部引入"><span class="nav-number">3.1.1.</span> <span class="nav-text">1、外部引入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、内部引入"><span class="nav-number">3.1.2.</span> <span class="nav-text">2、内部引入</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、css颜色"><span class="nav-number">3.2.</span> <span class="nav-text">二、css颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、文本"><span class="nav-number">3.3.</span> <span class="nav-text">三、文本</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、字体术语"><span class="nav-number">3.3.1.</span> <span class="nav-text">1、字体术语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、字体选用"><span class="nav-number">3.3.2.</span> <span class="nav-text">2、字体选用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、字体格式"><span class="nav-number">3.3.3.</span> <span class="nav-text">3、字体格式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、链接样式："><span class="nav-number">3.3.4.</span> <span class="nav-text">4、链接样式：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、盒子模型"><span class="nav-number">3.4.</span> <span class="nav-text">四、盒子模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、盒子的大小"><span class="nav-number">3.4.1.</span> <span class="nav-text">一、盒子的大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、内容溢出"><span class="nav-number">3.4.2.</span> <span class="nav-text">二、内容溢出</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、边框、外边距、内边距"><span class="nav-number">3.4.3.</span> <span class="nav-text">三、边框、外边距、内边距</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
