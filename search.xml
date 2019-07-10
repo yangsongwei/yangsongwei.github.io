@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[《沙漠》]]></title>
+    <url>%2F%E3%80%8A%E6%B2%99%E6%BC%A0%E3%80%8B.html</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[numpy库学习]]></title>
+    <url>%2Fnumpy%E5%BA%93%E5%AD%A6%E4%B9%A0.html</url>
+    <content type="text"><![CDATA[numpy库学习​ 一、数组切片1、函数，针对数组中的每个元素：​ 一元函数： 2、二元函数 3、将条件逻辑表述为数组运算1234567891011np.where(condition,xarr,yarr)#实例xarr=np.array([1.1,1.2,1.3,1.4,1.5])yarr=np.array([2.1,2.2,2.3,2.4,2.5])cond=np.array([True,False,True,True,False])rs=np.where(cond,xarr,yarr)rs#resultarray([1.1, 2.2, 1.3, 1.4, 2.5]) 在数据分析中，常利用where函数根据一个数组生成另一个数组，如随机生成一个数组，然后将正值改为2，负值替换为-2。 12345678910#将正值替换为2，负值替换为-2nrr=randn(4,4)rarr=np.where(nrr&gt;0,2,-2)rarr#结果array([[ 2, 2, 2, -2], [ 2, 2, 2, 2], [ 2, 2, -2, 2], [ 2, 2, -2, 2]]) 4、基本数组统计方法]]></content>
+      <categories>
+        <category>-python</category>
+      </categories>
+      <tags>
+        <tag>numpy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ipython用法]]></title>
+    <url>%2Fipython%E7%94%A8%E6%B3%95.html</url>
+    <content type="text"><![CDATA[ipython的一些使用技巧 1、Tab键功能：​ (1) 匹配所有的当前命名空间中的已经存在的与已输入字符串匹配的变量。 ​ (2)命令提示符。 2、?的作用​ (1)能够显示变量或者函数的通用信息。 ​ (2)?? 3、%run命令​ (1)该命令能够运行python文件。 4、执行剪贴板中的代码​ (1)%paste和%cpaste 5、快捷键​ 6、魔术命令​ 7、—pylab模式​ 8、输入输出结果​ ipython会将最近两个输出结果保存在_和__中。 ​ 输入行的变量：_iX, X是行数。 9、与操作系统交互​]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>ipython</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[穷爸爸 富爸爸(一) 富人不为钱工作]]></title>
+    <url>%2F%E7%A9%B7%E7%88%B8%E7%88%B8-%E5%AF%8C%E7%88%B8%E7%88%B8-%E4%B8%80-%E5%AF%8C%E4%BA%BA%E4%B8%8D%E4%B8%BA%E9%92%B1%E5%B7%A5%E4%BD%9C.html</url>
+    <content type="text"><![CDATA[富人不为钱工作​ 1、穷人和中产阶级为钱而工作，富人让钱为他们工作。 ​ 2、避开人一生中最大的陷阱： ​ 欲望和恐惧 ​ 3、规则： ​ 明白资产和负债的区别。 ​ 资产：就是能把钱放进你口袋里的东西。 ​ ​ 负债：就是把钱从你口袋中取走的东西。 ​ ​ 4、富人得到资产，穷人和中产阶级得到负债。 ​ 5、一定要有独立思考的能力。 ​ 6、憎恨“不能”。 ​ 7、财富就是支持生存多长时间的能力，通俗来说就是当你不工作之后，还能活多久。 ​ 8、箴言： ​ 富人买入资产； ​ 穷人只有支出； ​ 中产阶级买他们以为是资产的负债。 关注自己的事业​ 1、职业和事业之间的区别： ​ ​ 2、真正的资产： ​ (1)不许我到场就可以正常运作的业务。 ​ (2)股票； ​ (3)债券； ​ (4)共同基金。 ​ (5)产生收入的房地产。 ​ (6)票据。 ​ (7)专利权，如音乐、手稿、专利。 ​ (8)任何其他有价值、可产生收入或可能增值并且有很好的流通市场的东西。 ​ 3、工作原则：做个努力工作的雇员，确保你的工作，但要不断构筑你的资产项。 税收的历史和公司的力量富人的投资​ 1、必须要勇敢，恐惧是限制自己才能的因素。 ​ 2、金钱不是真正的资产。 ​ 3、任何投资机会如果太复杂，而我不能弄明白，就不会去投资。 ​ 4、资产基础：找一个对自己来说稳定可靠的资产基础，才能更好的进行财务管理。 ​ 5、不要害怕失去，只有失去才能去总结，最后才能成功。 ​ 5、三种主要的技能： ​ (1)寻找其他人都忽视的机会。 不要为金钱工作​ 1、如果你是高度专业化的人士，一定要加入工会。 克服困难​ 1、人们因为害怕失败，所以才会失败。(人人都想上天堂，却没人想去死) ​ 2、]]></content>
+      <categories>
+        <category>经济学</category>
+      </categories>
+      <tags>
+        <tag>穷爸爸富爸爸（一）</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[论读书]]></title>
+    <url>%2F%E8%AE%BA%E8%AF%BB%E4%B9%A6.html</url>
+    <content type="text"><![CDATA[论读书​ 学而不思则罔，思而不学则殆 ​ 在读书过程中，总结了几条我希望自己能够恪守的原则： ​ 1、读书必须结合实际去读，不能只是在脑海中简单的掠过。 ​ 2、在一节书读完之后，必须要进行总结。]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>论读书</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[未选择的路]]></title>
     <url>%2F%E6%9C%AA%E9%80%89%E6%8B%A9%E7%9A%84%E8%B7%AF.html</url>
     <content type="text"><![CDATA[未选择的路​ 弗罗斯特（美） 黄色的树林里分出两条路 可惜我不能同时去涉足 我在那路口久久伫立 我向着一条路极目望去 直到它消失在丛林深处 但我选了另外一条路 它荒草萋萋，十分幽寂 显得更诱人，更美丽 虽然在这条小路上 很少留下旅人的足迹 那天清晨落叶满地 两条路都未经脚印污染 啊，留下一条路等改日再见 但我知道路径延绵无尽头 恐怕我难以再回返 也许多少年后在某个地方 我将轻声叹息将往事回顾 一条树林里分出两条路—— 而我选择了人际更少的一条 从此决定了我一生的道路]]></content>
@@ -14,7 +63,7 @@
   <entry>
     <title><![CDATA[前端之css基础知识]]></title>
     <url>%2F%E5%89%8D%E7%AB%AF%E4%B9%8Bcss%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</url>
-    <content type="text"><![CDATA[简介​ 前端中css基础知识总结。参考书籍《HTML&amp;CSS设计与构建网站》 css原理​ 理解css的关键在于要看到网页中的任何元素周围都有一个看不见的盒子，css允许你创建规则，来操纵每个盒子以及盒子中的内容的显示方式。 ​ css采用将样式规则与html元素相关联的方式来操纵元素。一条css规则包含两个部分：一个选择器和一条声明。 ​ 123p&#123; font-family: Arial;&#125; css基础知识一、使用css：1、外部引入1&lt;link rel="stylesheet" type="text/css" href="css路径"&gt; ​ 若需要引入多个css文件，则需要使用多个link标签进行引入。 2、内部引入123&lt;style type="test/css"&gt; &lt;!--css code--&gt;&lt;/style&gt; 二、css颜色​ 1、css3透明度： ​ 1234567p&#123; opacity:0~1;&#125;p&#123; rgba(,,,0~1);&#125; 三、文本1、字体术语​ (1)衬线字体：在主要的笔画的末端有一些额外的装饰，这些装饰被称为衬线。通常用于长篇文本。 ​ (2)无衬线字体：用于文本非常小。 ​ (3)等宽字体：每个字母的宽度都相同。 2、字体选用​ 1234//字体样式font-family: ;//字体大小font-size: ; 3、字体格式12//文字对齐方式text-align:left/center/right/justify(两端对齐) 4、链接样式：1234567:link&#123; //为尚未访问过的链接设置样式&#125;:visited&#123; //为已经访问过的链接设置样式&#125; 1234567891011：hover&#123; //鼠标悬停在某个地方时的显示样式&#125;:active&#123; //当动作生效时，产生的效果&#125;:focus&#123; //在元素拥有焦点时产生效果&#125; 四、盒子模型一、盒子的大小​ 1234567891011121314//宽度width: ;//高度height: ;//盒子的最大宽度max-width: ;//盒子的最小宽度min-width: ;//最大高度max-height: ;//最小高度min-height: ; 二、内容溢出​ 1overflow:hidden/scroll 三、边框、外边距、内边距12]]></content>
+    <content type="text"><![CDATA[简介​ 前端中css基础知识总结。参考书籍《HTML&amp;CSS设计与构建网站》 css原理​ 理解css的关键在于要看到网页中的任何元素周围都有一个看不见的盒子，css允许你创建规则，来操纵每个盒子以及盒子中的内容的显示方式。 ​ css采用将样式规则与html元素相关联的方式来操纵元素。一条css规则包含两个部分：一个选择器和一条声明。 ​ 123p&#123; font-family: Arial;&#125; css基础知识一、使用css：1、外部引入1&lt;link rel="stylesheet" type="text/css" href="css路径"&gt; ​ 若需要引入多个css文件，则需要使用多个link标签进行引入。 2、内部引入123&lt;style type="test/css"&gt; &lt;!--css code--&gt;&lt;/style&gt; 二、css颜色​ 1、css3透明度： ​ 1234567p&#123; opacity:0~1;&#125;p&#123; rgba(,,,0~1);&#125; 三、文本1、字体术语​ (1)衬线字体：在主要的笔画的末端有一些额外的装饰，这些装饰被称为衬线。通常用于长篇文本。 ​ (2)无衬线字体：用于文本非常小。 ​ (3)等宽字体：每个字母的宽度都相同。 2、字体选用​ 1234//字体样式font-family: ;//字体大小font-size: ; 3、字体格式12//文字对齐方式text-align:left/center/right/justify(两端对齐) 4、链接样式：1234567:link&#123; //为尚未访问过的链接设置样式&#125;:visited&#123; //为已经访问过的链接设置样式&#125; 1234567891011：hover&#123; //鼠标悬停在某个地方时的显示样式&#125;:active&#123; //当动作生效时，产生的效果&#125;:focus&#123; //在元素拥有焦点时产生效果&#125; 四、盒子模型一、盒子的大小​ 1234567891011121314//宽度width: ;//高度height: ;//盒子的最大宽度max-width: ;//盒子的最小宽度min-width: ;//最大高度max-height: ;//最小高度min-height: ; 二、内容溢出​ 1overflow:hidden/scroll 三、边框、外边距、内边距1234567891011//边框宽度border-width:thin/medium/thick;//上边框宽度border-top-width://边框样式border[-top | -left | -right | -bottom]-style:solid(直线)/dotted(点状)/dashed(一条虚线)/double(两条实线)/groove(雕入页面)/ridge(在页面上突起)/inset(嵌入页面)/outset(突出屏幕)/hidden|none不显示任何边框//边框颜色border[-top | -left | -right | -bottom]-color 四、内边距123456//内边距padding[ | -top | -right | -bottom | -left]/*若想让一个盒子中的内容居中显示，可以将padding-left和padding-right的值设为auto。*/ 五、外边距12//外边距margin[ | -top | -right | -bottom | -left] 六、内联元素与块级元素的转换12//内联元素与块级元素转换display:inline(使块元素显示变为内联元素)/block(使内联元素转换为块元素)/inline-block(使块级元素像内联元素一样浮动)/none(使元素隐藏) 七、盒子的隐藏1visibility:hidden/visible 八、盒子的投影​ 1box-shadow: 九、其他12//盒子的圆角border-radius:圆角半径 五、列表、表格和表单一、列表属性1、项目符号样式​ 12//应用在ul,ol,li中list-style-type: ; ​ 在无序列表中的值可以是： 1none/disc/circle/square ​ 在有序列表中的值是： 2、将图像作为项目符号：​ 1list-style-image: url("images/func.png"); 3、图像的位置1list-style-position:inside/outside; 二、表格属性​ 12345678910111213141516171819202122232425262728293031//表格的宽度width: ;//单元格与内容的距离padding: ;//用于将表格标题中的内容转化为大写text-transform//为表格标题的内容增加额外的样式letter-spacing: ;//设置表格标题的上方和下方的边框border-top: ;border-bottom: ;//设置单元格中的书写方式text-align: ;//用于交替改变表格行的背景颜色background-color: ;//用户将光标悬停在某个表格行时高亮显示:hover//控制单元格之间的距离border-spacing: ;//合并相邻单元格边框border-collapse: ; 三、定义表单 样式​ 1、定义单行文本框样式 12 2、光标样式​ 1curser: css布局​]]></content>
       <categories>
         <category>前端</category>
       </categories>
